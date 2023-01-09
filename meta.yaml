@@ -1,0 +1,22 @@
+package:
+  name: posix-bash
+  version: 1.0.0
+
+requirements:
+  run:
+    - bash
+
+build:
+  noarch: generic
+  script: ln -s $PREFIX/bin/sh bash
+
+about:
+  home: github.com/calebzulawski/posix-bash
+  license: MIT
+  license_familY: MIT
+  license_file: LICENSE
+  summary: "Link bash as posix sh"
+
+extra:
+  recipe-maintainers:
+    - calebzulawski
