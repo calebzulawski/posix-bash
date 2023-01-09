@@ -11,7 +11,7 @@ build:
   script: ln -s $PREFIX/bin/sh bash
 
 about:
-  home: github.com/calebzulawski/posix-bash
+  home: https://github.com/calebzulawski/posix-bash
   license: MIT
   license_familY: MIT
   license_file: LICENSE
